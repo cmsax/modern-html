@@ -1,0 +1,183 @@
+body {
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif !important;
+    user-select: none;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Chrome/Safari/Opera */
+    -khtml-user-select: none; /* Konqueror */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+
+}
+div.background {
+    background-image: url("http://oqduzszsc.bkt.clouddn.com/cdn/img/1.jpg");
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+div.fade {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    background-color: black;
+    opacity: 0.4;
+}
+
+div.tiles-container {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+div.f-container {
+    padding: 2vw;
+}
+
+div.tiles-box {
+    width: 320px;
+    height: auto;
+    float: left;
+    margin: 10px 10px;
+}
+
+div.box-title {
+    margin-bottom: 10px;
+    font-size: 15px;
+    width: 100%;
+    color: white;
+    z-index: 2;
+    padding-left: 5px;
+}
+
+
+div.tiles {
+    margin: 2px;
+    padding: 8px;
+    background-color: #333399;
+    color: white;
+    float: left;
+    border: 2px solid #333399;
+}
+
+div.tiles:hover {
+    border: 2px solid pink;
+}
+
+div.t-icon {
+    font-size: 40px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+div.icon-cap{
+    position: relative;
+    top: 0px;
+    font-size: 14px;
+    word-wrap: break-word;
+    font-weight: 100;
+}
+
+div.tiles-md {
+    width: 100px;
+    height: 100px;
+}
+
+div.tiles-wide {
+    width: 204px;
+    height: 100px;
+}
+
+div.tiles-bg {
+    width: 204px;
+    height: 204px;
+}
+
+div.weekday{
+    float: right;
+    position: relative;
+    top: -5px;
+
+}
+div.date{
+    float: right;
+    font-size: 60px;
+    font-weight: 300;
+    left: 20px;
+    position: relative;
+    left: 32px;
+}
+
+ol{
+    padding-left: 15px;
+}
+
+div.tile-cap{
+    position: relative;
+}
+div.date-content{
+    font-size: 10px;
+    height: 66px;
+}
+
+div#todo-list{
+    height: 170px;
+    overflow-wrap: normal;
+}
+
+div.menu-container {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 35px;
+    height: 100%;
+    background-color: black;
+    opacity: 0.7;
+    padding: 0px;
+    z-index: 3;
+}
+
+div#menu-fake-container{
+    background-color: transparent;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 4;
+    width: 35px;
+    height: 100%;
+}
+div.menu-item{
+    width: 35px;
+    float: left;
+    height: 35px;
+    background: transparent;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+div.menu-item:hover{
+    background-color: #333399;
+    opacity: 0.4;
+    color: white;
+}
+div.menu-item-selected{
+    border-left: 3px solid #333399;
+}
+div.menu-item-selected:hover{
+    background-color: #333399;
+    opacity: 0.4;
+    color: white;
+}
+div.wd-content{
+    height: 67px;
+}
